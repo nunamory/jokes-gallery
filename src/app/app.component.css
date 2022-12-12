@@ -1,0 +1,26 @@
+div {
+  text-align: center;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  width: 25%;
+  background-color: rgba(166, 128, 255, 0.5);
+}
+
+td {
+  background-color: rgba(166, 128, 255, 0.247);
+}

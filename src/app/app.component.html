@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    {{ title }}
+  </h1>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Impressions</th>
+      <th>Clicks</th>
+      <th>Cost</th>
+      <th>conversions</th>
+    </tr>
+    <tbody *ngFor="let item of data">
+      <td>{{ item.timestamp }}</td>
+      <td>{{ item.impressions }}</td>
+      <td>{{ item.clicks }}</td>
+      <td>{{ item.cost }}</td>
+      <td>{{ item.conversions }}</td>
+    </tbody>
+  </table>
+</div>
